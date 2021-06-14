@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "destructingAssignment",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "multipleOutputs",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learn/functionoutputs.sol": "MultipleOutputs"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learn/functionoutputs.sol": {
+			"keccak256": "0x5cc1a53e7d1ea94e5caf08dbc18f34797356aec5edbf2ff6e0a920540d5f8798",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://440fb57b52dbcd1d117bad361429f107a8a3644a9a822b783bbf09960828e103",
+				"dweb:/ipfs/QmPLWQgUyuRD1BZTNJpp828oVJLMj8AbPw2kenas3Pygas"
+			]
+		}
+	},
+	"version": 1
+}

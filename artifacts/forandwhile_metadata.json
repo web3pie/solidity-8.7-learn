@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "forloop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "whileloop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learn/forandwhileloop.sol": "forandwhile"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learn/forandwhileloop.sol": {
+			"keccak256": "0xb938fa7cd8b5cbcb53456a07362ae1b9b44f6b5d6ba316f88a42efe83a748b00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b2bb4a39bbdc4d556e83e354df21bca3e046cb8ad2032fea5658300f35ad1732",
+				"dweb:/ipfs/Qme7TX3eitx15VZ2EnKQw6ZdtPwEjVUaSE8zyvUd5pyugN"
+			]
+		}
+	},
+	"version": 1
+}

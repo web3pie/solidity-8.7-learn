@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "purefunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewfunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learn/viewpurefuction.sol": "viewpurefunction"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learn/viewpurefuction.sol": {
+			"keccak256": "0x15f0f3e7d23de3d973b11a8677e8feb4c0beef4702eb5ad4f414b087f6540157",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6abeebaddb19e1ebe40773d9e9a3da9fcdba40bf8ce55b27e806bf49bfefcc7a",
+				"dweb:/ipfs/QmRs6zaY3ELebtd6ZTkDJaqcGvGtrzMAcnGMmYN7qffnCf"
+			]
+		}
+	},
+	"version": 1
+}

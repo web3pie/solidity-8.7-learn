@@ -1,0 +1,67 @@
+{
+	"id": "ce6a51f03baad5669e35cde726df8b24",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"solidity-learn/datalocation.sol": {
+				"content": "//SPDX-License-Identifier:MIT\r\npragma solidity 0.8.7;\r\n\r\n// memory\r\n// storage\r\n//"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"solidity-learn/datalocation.sol": {
+				"ast": {
+					"absolutePath": "solidity-learn/datalocation.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".7"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "31:22:0"
+						}
+					],
+					"src": "31:51:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
